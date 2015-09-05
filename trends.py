@@ -1,5 +1,5 @@
 import tweepy
-from loc_using_geopy import coordinates
+from geoloc import coordinates
 
 ckey='your_twitter_consumer_key'
 csecret='your_consumer_secret'
