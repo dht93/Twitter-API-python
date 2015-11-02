@@ -1,16 +1,12 @@
-# Twitter-Trends
-Gives you a list of Twitter Trends for the location you enter.
+# Twitter-API
 
 Libraries used:
 -geolocation-python 0.2.0 (https://pypi.python.org/pypi/geolocation-python/0.2.0)
 -tweepy (https://github.com/tweepy/tweepy)
 
-API used:
+APIs used:
 -Twitter API (https://dev.twitter.com/overview/documentation)
 -Google Maps API (https://developers.google.com/maps/)
 
+A python program that retrieves live streaming tweets about the top trending keyword for a given place. The coordinates for the entered place are found using 'geolocation-python' library which is based on the Google Maps Geocoding API. These coordinates are then fed to the Twitter API using 'Tweepy' as an interface. Data returned by both APIs is in JSON format. Useful information is then extracted from this data and stored to a file.
 
-A simple script that asks you for a location of your choice. The coordinates of this location are then found out using geolocation-python which uses Google Maps Geocoding API. Tweepy is used to find out the nearest location for which Twitter maintains a trends list. The current trends are then outputted.
-
-
-#Looking forward to adding a lot more functionality to the project in the future.
